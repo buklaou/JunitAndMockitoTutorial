@@ -1,7 +1,9 @@
+package Classes;
+
 /**
  * Created by Raffi on 12/29/2015.
  */
-public class GreetingImpl implements Greeting {
+public class GreetingImpl implements IGreeting {
 
     @Override
     public String greet(String name) {
