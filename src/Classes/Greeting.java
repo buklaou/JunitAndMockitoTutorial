@@ -3,7 +3,7 @@ package Classes;
 /**
  * Created by Raffi on 12/29/2015.
  */
-public interface IGreeting {
+public interface Greeting {
 
     String greet(String name);
 
