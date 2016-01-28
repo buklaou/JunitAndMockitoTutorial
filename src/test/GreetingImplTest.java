@@ -2,7 +2,12 @@ package test;
 
 import Classes.GreetingImpl;
 import Classes.Greeting;
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
+
+import javax.xml.ws.soap.Addressing;
+
 import static org.junit.Assert.*;
 
 /**
@@ -11,30 +16,46 @@ import static org.junit.Assert.*;
 
 /*Test methods should always be void. Make sure to give meaningful names.
 * It's a good habit to test separately for different scenarios.*/
+
 public class GreetingImplTest {
 
+    private Greeting greeting;
+
+    /*@Before and @After run before and after each test case.*/
+    @Before
+    public void setup() {
+        System.out.println("Setup");
+        greeting = new GreetingImpl();
+    }
     @Test
     public void testGreet() {
+        System.out.println("testGreet");
         //Should return a valid output.
-        Greeting greeting = new GreetingImpl();
         String result = greeting.greet("Junit");
         assertNotNull(result);
         assertEquals("Hello Junit", result);
 
     }
 
+    /*Exception Testing*/
     @Test(expected = IllegalArgumentException.class)
     public void greetExceptionForNull() {
+        System.out.println("greetExceptionForNull");
         /*The greet should throw an exception for name is null.*/
-        Greeting greeting = new GreetingImpl();
         greeting.greet(null);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void greetExceptionForEmptyString() {
+        System.out.println("greetExceptionForEmptyString");
         /*The greet should throw an exception for name is null.*/
-        Greeting greeting = new GreetingImpl();
         greeting.greet("");
+    }
+
+    @After
+    public void teardown() {
+        System.out.println("teardown");
+        greeting = null;
     }
 
 }

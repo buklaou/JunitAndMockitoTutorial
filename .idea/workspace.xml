@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19d2ecae-2788-40a6-abdb-5c3a4a024306" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Classes/GreetingImpl.java" afterPath="$PROJECT_DIR$/src/Classes/GreetingImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/GreetingImplTest.java" afterPath="$PROJECT_DIR$/src/test/GreetingImplTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Classes/IGreeting.java" afterPath="$PROJECT_DIR$/src/Classes/Greeting.java" />
     </list>
     <ignored path="JunitAndMockitoTutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +48,8 @@
       <file leaf-file-name="GreetingImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/GreetingImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94285715">
-              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.82857144">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -217,7 +214,7 @@
       <recent name="F:\Code\IntelliJIdeaProjects\JunitAndMockitoTutorial\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GreetingImplTest.greetExceptionForEmptyString">
+  <component name="RunManager" selected="JUnit.GreetingImplTest">
     <configuration default="false" name="GreetingImplTest.testGreet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="JunitAndMockitoTutorial" />
@@ -1019,10 +1016,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GreetingImplTest.greetExceptionForEmptyString" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GreetingImplTest.greetException" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GreetingImplTest.testGreet" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GreetingImplTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GreetingImplTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GreetingImplTest.greetExceptionForEmptyString" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GreetingImplTest.greetException" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GreetingImplTest.testGreet" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.GreetingImplTest.testGreet" />
       </list>
     </recent_temporary>
@@ -1047,16 +1044,16 @@
       <workItem from="1453751537101" duration="659000" />
       <workItem from="1453752281187" duration="486000" />
       <workItem from="1453922591101" duration="1755000" />
-      <workItem from="1453954321914" duration="734000" />
+      <workItem from="1453954321914" duration="1187000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GreetingImplTest - 2016.01.27 at 20h 17m 13s.xml">
+    <history-entry file="GreetingImplTest - 2016.01.27 at 20h 29m 48s.xml">
       <configuration name="GreetingImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetingImplTest_greetException - 2016.01.27 at 20h 17m 07s.xml">
-      <configuration name="GreetingImplTest.greetException" configurationId="JUnit" />
+    <history-entry file="GreetingImplTest - 2016.01.27 at 20h 29m 50s.xml">
+      <configuration name="GreetingImplTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GreetingImplTest_greetException - 2016.01.27 at 20h 18m 05s.xml">
       <configuration name="GreetingImplTest.greetException" configurationId="JUnit" />
@@ -1084,7 +1081,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8636000" />
+    <option name="totallyTimeSpent" value="9089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1396,8 +1393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/GreetingImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94285715">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.82857144">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
