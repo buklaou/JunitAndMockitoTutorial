@@ -1,12 +1,10 @@
-package test;
+package JUnitTesting.test;
 
-import Classes.GreetingImpl;
-import Classes.Greeting;
+import JUnitTesting.Classes.GreetingImpl;
+import JUnitTesting.Classes.Greeting;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import javax.xml.ws.soap.Addressing;
 
 import static org.junit.Assert.*;
 
@@ -15,13 +13,13 @@ import static org.junit.Assert.*;
  */
 
 /*Test methods should always be void. Make sure to give meaningful names.
-* It's a good habit to test separately for different scenarios.*/
+* It's a good habit to JUnitTesting.Classes.test separately for different scenarios.*/
 
 public class GreetingImplTest {
 
     private Greeting greeting;
 
-    /*@Before and @After run before and after each test case.*/
+    /*@Before and @After run before and after each JUnitTesting.Classes.test case.*/
     @Before
     public void setup() {
         System.out.println("Setup");
@@ -37,11 +35,11 @@ public class GreetingImplTest {
 
     }
 
-    /*Exception Testing*/
+    /*OrderBOException Testing*/
     @Test(expected = IllegalArgumentException.class)
     public void greetExceptionForNull() {
         System.out.println("greetExceptionForNull");
-        /*The greet should throw an exception for name is null.*/
+        /*The greet should throw an OrderBOException for name is null.*/
         greeting.greet(null);
     }
 

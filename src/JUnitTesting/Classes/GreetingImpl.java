@@ -1,4 +1,4 @@
-package Classes;
+package JUnitTesting.Classes;
 
 /**
  * Created by Raffi on 12/29/2015.
